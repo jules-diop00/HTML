@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+       <title>My Portfolio</title>
+       <link rel="icon" href="img/portofolio.png">
+       <link rel="stylesheet" href="styles/styles.css">
+       
+
+    </head>
+
+
+    <body>
+       <header>
+                <a href="#" class="logo">Portfolio</a>   
+                <ul class = "navbar">
+                    <li> <a href="#Home">Home</a></li>
+                    <li> <a href="#About">About</a></li>
+                    <li> <a href="#Work">Work</a></li>
+                    <li> <a href="#Resume">Resume</a></li>
+                    <li> <a href="#Contact">Contact</a></li>
+
+                </ul>
+        </header>
+        <div class="container"></div>
+
+        <section id="L">
+
+        </section>
+        
+        <section id="Home"> 
+            <h1>Welcome to my Portofolio</h1>
+            <p> Discover my projects, skills, and experience below</p>
+        </section>
+        <section id="About">
+            <h2>About Me</h2>
+            <p>Student passionate about programming, electronics and telecommunications, currently in Master in Computer Science, Network System and Telecommunications at ESP. I hold a Bachelor's degree in Computer Electronic Systems and Telecommunications at UAM, I am determined to apply my knowledge and skills to contribute significantly to technological advances in the sectors of computing, networks and telecommunications.</p>
+
+            <video width="420" height="315" autoplay>
+                <source src="img/monvideos.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section id="Work">
+            <h2> Here is a little part of my works in Html</h2>
+            <ul>
+                <li><a href="fichier/Windows-11(2).pdf">Project 1</a></li>
+                <li><a href="fichier/Windows-11.pdf">Project 2</a></li>
+            </ul>
+        </section>
+        <section id="Resume">
+            <h2>Resume</h2>
+            <table border="1">
+                <thead>
+                <tr>
+                    <th>Years</th>
+                    <th>Experiences</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       <td>2022</td>
+                       <td>Course at Sonatel</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>Intervention Technician at Sonatel</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">submit</button>
+            </form>   
+
+        </section>
+        <footer>
+            <p>&copy; Here is my Portfolio. Text me for mor information. +221 77 283 94 54</p>
+        </footer>
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,163 @@
+/*The body in General */
+body{
+    background-color: rgb(10, 4, 28);
+    color: aliceblue;
+
+}
+
+/*tHE HEAD*/
+header{
+    list-style-type: none;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    transition: 0.7s;
+    padding: 1rem 0;
+}
+/*The logo*/
+.logo{
+    font-size: 26px;
+    text-decoration: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+/*navigation bar*/
+header ul {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+    list-style-type: none;
+}
+    
+/*List in the navigation bar*/
+header ul li{
+    position: relative;
+    list-style-type: none;
+    margin: 0 1rem;
+    
+}
+header ul li a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+
+}
+header ul li a:hover{
+    color: orange;
+}
+
+.container{
+    height: 100vh;
+    background-image: url("https://scoopcar.com/wp-content/uploads/2020/05/videoblocks-targeted-web-development-solutions-as-an-animation-concept-4k-uhd-motion-video_bhcv2dxab_thumbnail-full09-1.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+/*Section in all*/
+section{
+    padding: 2rem;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: inset;
+}
+
+/*Section h1 and h2 format*/
+section h1, section h2{
+    padding: 0%;
+    text-align: center;
+    margin-bottom: 1rem ;
+}
+
+/*Paragraphe in section*/
+section p{
+    text-align: center;
+    line-height: 1.6;
+    margin: 0 1rem;
+}
+section ul li{
+    text-align: center;
+    line-height: 1.6;
+    margin: 1.6;
+    color: white;
+    margin-bottom:0 1rem;
+}
+/*video*/
+video{
+    color: black;
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*Table*/
+table{
+    margin-top: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+table th, table td{
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+table th{
+    color: #ddd;
+}
+table tr:nth-child(even) {
+}
+
+/* Formulaire */
+form {
+    max-width: 600px;
+    margin: 1rem auto;
+    background-color: #0a0228;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f39c12;
+}
+
+/* footer */
+footer {
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
