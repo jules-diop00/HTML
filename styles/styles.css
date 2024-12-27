@@ -1,8 +1,10 @@
 /*The body in General */
 body{
     background-color: rgb(10, 4, 28);
+    font-family: 'Roboto',  sans-serif;
+    margin: 0;
+    padding: 0;
     color: aliceblue;
-
 }
 
 /*tHE HEAD*/
